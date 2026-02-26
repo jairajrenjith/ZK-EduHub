@@ -1,1 +1,1 @@
-# LexAI
+# ZK EduHub
