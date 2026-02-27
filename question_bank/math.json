@@ -1,0 +1,77 @@
+{
+  "subject": "math",
+  "questions": [
+    {
+      "id": "m1", "topic": "algebra", "difficulty": 1,
+      "question": "What is 5x = 20? Find x.",
+      "options": ["2", "4", "5", "10"],
+      "answer": "4"
+    },
+    {
+      "id": "m2", "topic": "algebra", "difficulty": 1,
+      "question": "Simplify: 3(x + 2) = ?",
+      "options": ["3x + 2", "3x + 6", "3x + 5", "6x"],
+      "answer": "3x + 6"
+    },
+    {
+      "id": "m3", "topic": "geometry", "difficulty": 1,
+      "question": "Area of a rectangle with length 5 and width 3?",
+      "options": ["8", "15", "16", "10"],
+      "answer": "15"
+    },
+    {
+      "id": "m4", "topic": "algebra", "difficulty": 2,
+      "question": "Solve: 2x² - 8 = 0. Find x.",
+      "options": ["±1", "±2", "±4", "±8"],
+      "answer": "±2"
+    },
+    {
+      "id": "m5", "topic": "geometry", "difficulty": 2,
+      "question": "What is the sum of interior angles of a hexagon?",
+      "options": ["540°", "720°", "600°", "360°"],
+      "answer": "720°"
+    },
+    {
+      "id": "m6", "topic": "calculus", "difficulty": 2,
+      "question": "What is the derivative of x³?",
+      "options": ["x²", "2x²", "3x²", "3x³"],
+      "answer": "3x²"
+    },
+    {
+      "id": "m7", "topic": "calculus", "difficulty": 3,
+      "question": "∫2x dx = ?",
+      "options": ["x² + C", "2x² + C", "x + C", "2 + C"],
+      "answer": "x² + C"
+    },
+    {
+      "id": "m8", "topic": "statistics", "difficulty": 3,
+      "question": "Standard deviation measures?",
+      "options": ["Average value", "Spread of data", "Maximum value", "Frequency"],
+      "answer": "Spread of data"
+    },
+    {
+      "id": "m9", "topic": "algebra", "difficulty": 2,
+      "question": "If f(x) = 2x + 3, what is f(4)?",
+      "options": ["8", "9", "10", "11"],
+      "answer": "11"
+    },
+    {
+      "id": "m10", "topic": "geometry", "difficulty": 3,
+      "question": "What is the equation of a circle with center (0,0) and radius 5?",
+      "options": ["x+y=25", "x²+y²=5", "x²+y²=25", "x²+y²=10"],
+      "answer": "x²+y²=25"
+    },
+    {
+      "id": "m11", "topic": "statistics", "difficulty": 1,
+      "question": "Mean of [2, 4, 6, 8, 10] is?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "6"
+    },
+    {
+      "id": "m12", "topic": "calculus", "difficulty": 3,
+      "question": "Limit of (sin x)/x as x→0?",
+      "options": ["0", "∞", "1", "undefined"],
+      "answer": "1"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "subject": "english",
+  "levels": {
+    "1": {
+      "title": "English Foundations",
+      "description": "Grammar basics, sentence structure, and vocabulary building",
+      "chunks": [
+        {
+          "id": "eng_1_1",
+          "topic": "Parts of Speech",
+          "content": "Words are classified by their function in a sentence.\n\nThe 8 Parts of Speech:\n1. Noun: Names a person, place, thing, or idea\n   Examples: dog, London, happiness, freedom\n\n2. Pronoun: Replaces a noun\n   Examples: he, she, it, they, we, I, you\n\n3. Verb: Shows action or state of being\n   Examples: run, think, is, were, become\n\n4. Adjective: Describes a noun\n   Examples: tall, beautiful, three, ancient\n\n5. Adverb: Modifies a verb, adjective, or other adverb\n   Examples: quickly, very, often, loudly\n\n6. Preposition: Shows relationship between words\n   Examples: in, on, at, under, beside, through\n\n7. Conjunction: Connects words, phrases, or clauses\n   FANBOYS: For, And, Nor, But, Or, Yet, So\n\n8. Interjection: Expresses sudden feeling\n   Examples: Wow! Oh! Ouch!"
+        },
+        {
+          "id": "eng_1_2",
+          "topic": "Sentence Structure",
+          "content": "A sentence must have a subject and a predicate.\n\nSentence Types by Structure:\n• Simple: One independent clause\n  'The dog barked.'\n\n• Compound: Two independent clauses joined by a conjunction or semicolon\n  'The dog barked, and the cat ran away.'\n\n• Complex: One independent + one dependent clause\n  'Although it was raining, she went for a walk.'\n\n• Compound-Complex: Two independent + at least one dependent clause\n\nSentence Types by Purpose:\n• Declarative: Makes a statement (ends with .)\n• Interrogative: Asks a question (ends with ?)\n• Imperative: Gives a command\n• Exclamatory: Shows strong feeling (ends with !)\n\nCommon Errors to Avoid:\n• Sentence Fragment: Incomplete thought ('Running to the store.')\n• Run-on: Two sentences without proper punctuation"
+        },
+        {
+          "id": "eng_1_3",
+          "topic": "Vocabulary Building",
+          "content": "A rich vocabulary makes writing and communication more precise.\n\nWord Formation Strategies:\n\nPrefixes (beginnings that change meaning):\n• un- (not): unhappy, unclear\n• re- (again): rewrite, redo\n• pre- (before): preview, prepare\n• mis- (wrongly): misunderstand, mistake\n• dis- (opposite): disagree, dishonest\n\nSuffixes (endings that change function):\n• -tion/-tion (noun): education, creation\n• -ful (adjective): beautiful, careful\n• -ly (adverb): quickly, softly\n• -less (without): careless, hopeless\n\nContext Clues: Use surrounding words to guess unfamiliar words.\n'The boy was so loquacious that he never stopped talking.' → loquacious means talkative.\n\nSynonyms (similar): happy / joyful / elated / glad\nAntonyms (opposite): hot / cold, fast / slow"
+        }
+      ]
+    },
+    "2": {
+      "title": "Intermediate English",
+      "description": "Essay writing, literary devices, and advanced grammar",
+      "chunks": [
+        {
+          "id": "eng_2_1",
+          "topic": "Essay Writing",
+          "content": "A well-structured essay has three parts: Introduction, Body, Conclusion.\n\nIntroduction:\n• Hook: Grab the reader's attention (quote, question, surprising fact)\n• Background: Brief context for your topic\n• Thesis Statement: Your main argument — one clear, specific claim\n\nBody Paragraphs (use PEEL structure):\n• Point: State your argument\n• Evidence: Quote or data that supports it\n• Explanation: Analyze how the evidence supports your point\n• Link: Connect back to thesis or transition to next paragraph\n\nConclusion:\n• Restate thesis (in different words)\n• Summarize key points\n• Closing thought: Broader significance or call to action\n\nTransition Words:\n• Adding: Furthermore, Moreover, In addition\n• Contrasting: However, Nevertheless, On the other hand\n• Concluding: Therefore, Thus, In conclusion, As a result"
+        },
+        {
+          "id": "eng_2_2",
+          "topic": "Literary Devices",
+          "content": "Literary devices are tools writers use to create effect and meaning.\n\nFigurative Language:\n• Simile: Comparison using 'like' or 'as'\n  'Her smile was like sunshine.'\n• Metaphor: Direct comparison without 'like/as'\n  'He is a lion in battle.'\n• Personification: Giving human traits to non-human things\n  'The wind whispered through the trees.'\n• Hyperbole: Exaggeration for effect\n  'I've told you a million times!'\n• Irony: Saying the opposite of what is meant\n\nSound Devices:\n• Alliteration: Repetition of initial consonant sounds ('Peter Piper picked')\n• Onomatopoeia: Words that sound like what they describe (buzz, crash, sizzle)\n• Assonance: Repetition of vowel sounds\n\nStructural Devices:\n• Foreshadowing: Hints about future events\n• Flashback: Interrupts narrative to show past events\n• Symbolism: Object represents abstract idea (dove = peace)"
+        },
+        {
+          "id": "eng_2_3",
+          "topic": "Advanced Grammar",
+          "content": "Mastering complex grammar structures elevates writing quality.\n\nVerb Tenses:\n• Simple: I walk / I walked / I will walk\n• Continuous: I am walking / I was walking\n• Perfect: I have walked / I had walked / I will have walked\n• Perfect Continuous: I have been walking\n\nSubjunctive Mood (wishes, hypotheticals, demands):\n• 'If I were you...' (NOT 'was')\n• 'I suggest that he be present.'\n• 'She demanded that it be done immediately.'\n\nPassive Voice:\nActive: 'The chef cooked the meal.'\nPassive: 'The meal was cooked by the chef.'\nUse passive when the action is more important than the actor.\n\nDangling Modifiers (common mistake):\nWrong: 'Running to school, the bell rang.'\nRight: 'Running to school, I heard the bell ring.'\nThe modifier must clearly refer to the subject."
+        }
+      ]
+    },
+    "3": {
+      "title": "Advanced English",
+      "description": "Critical analysis, rhetoric, and academic writing",
+      "chunks": [
+        {
+          "id": "eng_3_1",
+          "topic": "Critical Literary Analysis",
+          "content": "Literary analysis examines how a text creates meaning.\n\nLenses for Analysis:\n• Feminist: How are gender and power represented?\n• Marxist: How does class and economic power shape the narrative?\n• Psychoanalytic: What do characters' motivations reveal about the unconscious?\n• Post-colonial: How does the text relate to colonial power structures?\n\nAnalyzing Character:\n• Protagonist vs Antagonist\n• Static (unchanged) vs Dynamic (changed by events)\n• Round (complex) vs Flat (one-dimensional)\n• Foil: Character who contrasts the protagonist to highlight traits\n\nThematic Analysis:\nTheme ≠ Topic. Topic = War. Theme = 'War destroys the humanity of all involved.'\n\nHow to Write Analysis:\n• Make a claim (interpretation)\n• Ground it in textual evidence (quotation)\n• Analyze HOW the technique creates meaning — not just WHAT it says\n• Connect to broader themes or context"
+        },
+        {
+          "id": "eng_3_2",
+          "topic": "Rhetoric and Argumentation",
+          "content": "Rhetoric is the art of persuasion. Aristotle identified three modes.\n\nAristotle's Appeals:\n• Ethos (Credibility): 'As a doctor with 20 years experience...'\n• Pathos (Emotion): Stories, vivid imagery, emotionally charged language\n• Logos (Logic): Statistics, facts, logical reasoning\n\nCommon Logical Fallacies (flawed arguments):\n• Ad Hominem: Attacking the person, not the argument\n• Straw Man: Misrepresenting opponent's argument to attack it\n• False Dichotomy: Presenting only two options when more exist\n• Slippery Slope: Assuming one event will lead to extreme consequences\n• Appeal to Authority: Using irrelevant authority as evidence\n• Bandwagon: 'Everyone believes this, so it must be true'\n\nArgument Structure:\nClaim → Grounds (evidence) → Warrant (why evidence supports claim) → Rebuttal (addressing counterarguments)"
+        },
+        {
+          "id": "eng_3_3",
+          "topic": "Academic Writing and Research",
+          "content": "Academic writing demands precision, evidence, and formal register.\n\nCitation Styles:\n• MLA: Author-page (Smith 45). Works Cited at end.\n• APA: Author-date (Smith, 2019, p. 45). References at end.\n• Chicago: Footnotes or author-date system.\n\nAvoiding Plagiarism:\n• Always cite sources — even for paraphrasing\n• Quotation: Copy exact words in quotation marks\n• Paraphrase: Restate in your own words (still cite!)\n• Summary: Brief overview of main points (still cite!)\n\nAcademic Register:\n• Avoid contractions (don't → do not)\n• Avoid informal language (lots of → numerous)\n• Use precise vocabulary (good → beneficial/advantageous)\n• Third-person perspective generally preferred\n• Hedging language: 'suggests,' 'may indicate,' 'appears to'\n\nResearch Process:\nQuestion → Hypothesis → Literature Review → Methodology → Analysis → Conclusion"
+        }
+      ]
+    }
+  }
+}

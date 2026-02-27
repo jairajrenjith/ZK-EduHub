@@ -1,0 +1,68 @@
+{
+  "subject": "math",
+  "levels": {
+    "1": {
+      "title": "Math Foundations",
+      "description": "Basic arithmetic, simple algebra, and introductory geometry",
+      "chunks": [
+        {
+          "id": "math_1_1",
+          "topic": "Basic Arithmetic",
+          "content": "Arithmetic is the foundation of all mathematics. It deals with numbers and the basic operations: addition (+), subtraction (-), multiplication (×), and division (÷).\n\nKey Rules:\n• Addition: Combining quantities. 3 + 4 = 7\n• Subtraction: Finding difference. 10 - 6 = 4\n• Multiplication: Repeated addition. 3 × 4 = 12 (same as 4+4+4)\n• Division: Splitting into equal groups. 12 ÷ 4 = 3\n\nOrder of Operations (BODMAS/PEMDAS):\nBrackets → Orders (powers) → Division → Multiplication → Addition → Subtraction\nExample: 2 + 3 × 4 = 2 + 12 = 14 (NOT 20)"
+        },
+        {
+          "id": "math_1_2",
+          "topic": "Introduction to Algebra",
+          "content": "Algebra uses letters (variables) to represent unknown numbers.\n\nCore Concepts:\n• Variable: A letter representing an unknown (x, y, z)\n• Expression: Numbers and variables combined (2x + 3)\n• Equation: An expression set equal to something (2x + 3 = 7)\n\nSolving Simple Equations:\nTo solve 2x = 8, divide both sides by 2:\n2x ÷ 2 = 8 ÷ 2\nx = 4\n\nAlways do the SAME operation to BOTH sides.\n\nPractice: Solve 3x + 2 = 11\nStep 1: 3x = 11 - 2 = 9\nStep 2: x = 9 ÷ 3 = 3"
+        },
+        {
+          "id": "math_1_3",
+          "topic": "Basic Geometry",
+          "content": "Geometry studies shapes, sizes, and properties of figures.\n\nBasic Shapes:\n• Rectangle: Area = length × width, Perimeter = 2(l + w)\n• Triangle: Area = ½ × base × height\n• Circle: Area = πr², Circumference = 2πr (π ≈ 3.14159)\n\nAngles:\n• Acute: Less than 90°\n• Right: Exactly 90°\n• Obtuse: Between 90° and 180°\n• Straight: Exactly 180°\n\nThe angles of any triangle always add up to 180°."
+        }
+      ]
+    },
+    "2": {
+      "title": "Intermediate Mathematics",
+      "description": "Quadratic equations, trigonometry, and statistical analysis",
+      "chunks": [
+        {
+          "id": "math_2_1",
+          "topic": "Quadratic Equations",
+          "content": "A quadratic equation has the form ax² + bx + c = 0.\n\nMethods to Solve:\n1. Factoring: Find two numbers that multiply to ac and add to b\n   Example: x² + 5x + 6 = 0 → (x+2)(x+3) = 0 → x = -2 or x = -3\n\n2. Quadratic Formula: x = (-b ± √(b²-4ac)) / 2a\n   The discriminant (b²-4ac) tells you:\n   • Positive: Two real solutions\n   • Zero: One real solution\n   • Negative: No real solutions\n\n3. Completing the Square:\n   x² + 6x + 5 = 0\n   (x + 3)² - 9 + 5 = 0\n   (x + 3)² = 4\n   x + 3 = ±2 → x = -1 or x = -5"
+        },
+        {
+          "id": "math_2_2",
+          "topic": "Functions and Graphs",
+          "content": "A function maps each input to exactly one output: f(x) = expression.\n\nTypes of Functions:\n• Linear: f(x) = mx + b (straight line, m = slope, b = y-intercept)\n• Quadratic: f(x) = ax² + bx + c (parabola)\n• Exponential: f(x) = aˣ (rapid growth/decay)\n\nKey Graph Concepts:\n• Domain: All valid input values (x values)\n• Range: All possible output values (y values)\n• Intercepts: Where the graph crosses the axes\n• Slope = rise/run = (y₂-y₁)/(x₂-x₁)\n\nTransformations:\n• f(x) + k shifts UP by k\n• f(x) - k shifts DOWN by k\n• f(x + h) shifts LEFT by h"
+        },
+        {
+          "id": "math_2_3",
+          "topic": "Statistics and Probability",
+          "content": "Statistics analyzes data; probability predicts outcomes.\n\nMeasures of Central Tendency:\n• Mean: Sum of all values ÷ count\n• Median: Middle value when sorted\n• Mode: Most frequent value\n\nMeasures of Spread:\n• Range: Max - Min\n• Variance: Average of squared deviations from mean\n• Standard Deviation (σ): Square root of variance — measures how spread out data is\n\nProbability Basics:\n• P(event) = favorable outcomes / total outcomes\n• P(A and B) = P(A) × P(B) [if independent]\n• P(A or B) = P(A) + P(B) - P(A and B)"
+        }
+      ]
+    },
+    "3": {
+      "title": "Advanced Mathematics",
+      "description": "Calculus, linear algebra, and complex problem-solving",
+      "chunks": [
+        {
+          "id": "math_3_1",
+          "topic": "Differential Calculus",
+          "content": "Calculus studies continuous change. The derivative measures the rate of change.\n\nDerivative Rules:\n• Power Rule: d/dx(xⁿ) = nxⁿ⁻¹\n  Example: d/dx(x⁴) = 4x³\n• Sum Rule: d/dx(f + g) = f' + g'\n• Product Rule: d/dx(fg) = f'g + fg'\n• Chain Rule: d/dx(f(g(x))) = f'(g(x)) · g'(x)\n\nCommon Derivatives:\n• d/dx(sin x) = cos x\n• d/dx(cos x) = -sin x\n• d/dx(eˣ) = eˣ\n• d/dx(ln x) = 1/x\n\nApplications: Finding maxima/minima by setting f'(x) = 0 (critical points)."
+        },
+        {
+          "id": "math_3_2",
+          "topic": "Integral Calculus",
+          "content": "Integration is the reverse of differentiation — it finds accumulated quantities.\n\nBasic Integration Rules:\n• ∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ -1)\n• ∫eˣ dx = eˣ + C\n• ∫sin x dx = -cos x + C\n• ∫cos x dx = sin x + C\n\nDefinite Integrals:\n∫ₐᵇ f(x) dx = F(b) - F(a) where F is the antiderivative.\nThis represents the AREA under the curve f(x) from a to b.\n\nFundamental Theorem of Calculus:\nIf F'(x) = f(x), then ∫ₐᵇ f(x) dx = F(b) - F(a)\n\nTechniques: Substitution, Integration by Parts (∫u dv = uv - ∫v du)"
+        },
+        {
+          "id": "math_3_3",
+          "topic": "Limits and Continuity",
+          "content": "Limits describe the behavior of a function as x approaches a value.\n\nNotation: lim(x→a) f(x) = L means f(x) approaches L as x approaches a.\n\nKey Limits:\n• lim(x→0) sin(x)/x = 1\n• lim(x→∞) (1 + 1/x)ˣ = e\n• lim(x→0) (eˣ - 1)/x = 1\n\nL'Hôpital's Rule:\nIf limit gives 0/0 or ∞/∞, then:\nlim(x→a) f(x)/g(x) = lim(x→a) f'(x)/g'(x)\n\nContinuity: A function is continuous at x = a if:\n1. f(a) is defined\n2. lim(x→a) f(x) exists\n3. lim(x→a) f(x) = f(a)"
+        }
+      ]
+    }
+  }
+}

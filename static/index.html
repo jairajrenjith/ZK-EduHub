@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZK-EduHub — Adaptive Learning</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+  </style>
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+
+<!-- ░░ NOISE OVERLAY ░░ -->
+<div class="noise"></div>
+
+<!-- ░░ HEADER ░░ -->
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">◈</span>
+      <span class="logo-text">ZK<span class="logo-accent">·</span>EDU</span>
+    </div>
+    <nav class="nav">
+      <button class="nav-btn active" data-view="home">Home</button>
+      <button class="nav-btn" data-view="quiz">Quiz</button>
+      <button class="nav-btn" data-view="learn">Learn</button>
+      <button class="nav-btn" data-view="history">History</button>
+    </nav>
+    <div class="connection-status" id="connectionStatus">
+      <span class="dot"></span>
+      <span id="connText">Connecting...</span>
+    </div>
+  </div>
+</header>
+
+<!-- ░░ VIEWS ░░ -->
+<main class="main">
+
+  <!-- HOME VIEW -->
+  <section class="view active" id="view-home">
+    <div class="hero">
+      <div class="hero-badge">🔐 Zero-Knowledge Protocol Active</div>
+      <h1 class="hero-title">
+        Learn Smarter.<br/>
+        <span class="hero-accent">Stay Private.</span>
+      </h1>
+      <p class="hero-sub">
+        Your quiz scores never leave this device. The hub only learns <em>what</em> to teach you — never <em>who</em> you are or <em>how</em> you scored.
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="startQuizBtn">Start Adaptive Quiz</button>
+        <button class="btn btn-ghost" id="viewHistoryBtn">My Progress</button>
+      </div>
+      <div class="zk-diagram">
+        <div class="zk-step">
+          <div class="zk-icon">📱</div>
+          <div class="zk-label">Your Device</div>
+          <div class="zk-desc">Quiz · Scoring · Level Calc</div>
+        </div>
+        <div class="zk-arrow">
+          <svg viewBox="0 0 80 20"><path d="M0 10 L65 10 M55 2 L70 10 L55 18" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+          <span>Encrypted Token Only</span>
+        </div>
+        <div class="zk-step">
+          <div class="zk-icon">🏛️</div>
+          <div class="zk-label">Central Hub</div>
+          <div class="zk-desc">Decrypts · Serves Content</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subject Cards -->
+    <div class="section-title">Choose a Subject</div>
+    <div class="subject-grid" id="subjectGrid">
+      <div class="subject-card" data-subject="math">
+        <div class="subject-icon">∑</div>
+        <div class="subject-name">Mathematics</div>
+        <div class="subject-desc">Algebra · Calculus · Statistics</div>
+        <div class="subject-tag" id="math-tag">—</div>
+      </div>
+      <div class="subject-card" data-subject="science">
+        <div class="subject-icon">⚛</div>
+        <div class="subject-name">Science</div>
+        <div class="subject-desc">Physics · Chemistry · Biology</div>
+        <div class="subject-tag" id="science-tag">—</div>
+      </div>
+      <div class="subject-card" data-subject="english">
+        <div class="subject-icon">✍</div>
+        <div class="subject-name">English</div>
+        <div class="subject-desc">Grammar · Literature · Writing</div>
+        <div class="subject-tag" id="english-tag">—</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUIZ VIEW -->
+  <section class="view" id="view-quiz">
+    <div class="quiz-container">
+      <div class="quiz-header">
+        <button class="back-btn" data-view="home">← Back</button>
+        <div class="quiz-meta">
+          <span id="quizSubjectLabel">Mathematics</span>
+          <span class="quiz-progress-text">Question <span id="qNum">1</span> of <span id="qTotal">6</span></span>
+        </div>
+        <div class="quiz-privacy-badge">🔒 Scored Locally</div>
+      </div>
+
+      <div class="progress-bar-wrap">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <div class="question-card" id="questionCard">
+        <div class="question-topic" id="questionTopic">algebra</div>
+        <div class="question-text" id="questionText">Loading question...</div>
+        <div class="options-grid" id="optionsGrid"></div>
+      </div>
+
+      <div class="quiz-controls">
+        <button class="btn btn-primary" id="nextBtn" disabled>Next →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEARN VIEW -->
+  <section class="view" id="view-learn">
+    <div class="learn-container">
+      <div class="learn-header">
+        <button class="back-btn" data-view="home">← Back</button>
+        <div class="learn-meta">
+          <div class="learn-title-wrap">
+            <h2 id="learnTitle">Module Title</h2>
+            <div class="level-badge" id="learnLevel">Level 1</div>
+          </div>
+          <p id="learnDesc" class="learn-desc">Description</p>
+        </div>
+        <div class="zk-proof-badge">
+          <span>🔐</span>
+          <span id="zkProofText">ZK Token Active</span>
+        </div>
+      </div>
+
+      <div class="chunks-nav" id="chunksNav"></div>
+
+      <div class="chunk-viewer" id="chunkViewer">
+        <div class="chunk-loading">
+          <div class="spinner"></div>
+          <p>Fetching content from hub...</p>
+        </div>
+      </div>
+
+      <div class="chunk-controls">
+        <button class="btn btn-ghost" id="prevChunkBtn" disabled>← Previous</button>
+        <span id="chunkCounter">1 / 3</span>
+        <button class="btn btn-primary" id="nextChunkBtn">Next →</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- HISTORY VIEW -->
+  <section class="view" id="view-history">
+    <div class="history-container">
+      <div class="history-header">
+        <button class="back-btn" data-view="home">← Back</button>
+        <h2>Your Progress</h2>
+        <button class="btn btn-ghost btn-small" id="clearHistoryBtn">Clear All</button>
+      </div>
+      <div class="history-note">
+        <span>📱</span> All data stored locally on this device only. Nothing sent to server.
+      </div>
+      <div id="historyList" class="history-list"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ░░ RESULT MODAL ░░ -->
+<div class="modal-overlay" id="resultModal">
+  <div class="modal">
+    <div class="modal-icon" id="resultIcon">🎯</div>
+    <h2 class="modal-title" id="resultTitle">Quiz Complete!</h2>
+    <div class="modal-score" id="resultScore"></div>
+    <div class="modal-level" id="resultLevel"></div>
+    <div class="modal-zk">
+      <div class="zk-proof-line">
+        <span class="zk-check">✓</span>
+        <span>Score computed locally — never transmitted</span>
+      </div>
+      <div class="zk-proof-line">
+        <span class="zk-check">✓</span>
+        <span>Encrypted token sent to hub</span>
+      </div>
+      <div class="zk-proof-line">
+        <span class="zk-check">✓</span>
+        <span>Hub only learned: subject + level</span>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-primary" id="loadModuleBtn">Load My Module →</button>
+      <button class="btn btn-ghost" id="retakeBtn">Retake Quiz</button>
+    </div>
+  </div>
+</div>
+
+<!-- ░░ TOAST ░░ -->
+<div class="toast" id="toast"></div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>

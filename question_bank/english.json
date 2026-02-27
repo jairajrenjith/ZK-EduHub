@@ -1,0 +1,82 @@
+{
+  "subject": "english",
+  "questions": [
+    {
+      "id": "e1", "topic": "grammar", "difficulty": 1,
+      "question": "Which is a noun in: 'The dog runs fast'?",
+      "options": ["runs", "fast", "dog", "the"],
+      "answer": "dog"
+    },
+    {
+      "id": "e2", "topic": "vocabulary", "difficulty": 1,
+      "question": "Antonym of 'happy' is?",
+      "options": ["joyful", "sad", "glad", "pleased"],
+      "answer": "sad"
+    },
+    {
+      "id": "e3", "topic": "grammar", "difficulty": 1,
+      "question": "Correct sentence?",
+      "options": ["She go to school", "She goes to school", "She going school", "She gone school"],
+      "answer": "She goes to school"
+    },
+    {
+      "id": "e4", "topic": "comprehension", "difficulty": 2,
+      "question": "A 'metaphor' directly compares two unlike things using?",
+      "options": ["like or as", "is or are", "but or and", "if or when"],
+      "answer": "is or are"
+    },
+    {
+      "id": "e5", "topic": "vocabulary", "difficulty": 2,
+      "question": "What does 'ephemeral' mean?",
+      "options": ["Eternal", "Short-lived", "Powerful", "Ancient"],
+      "answer": "Short-lived"
+    },
+    {
+      "id": "e6", "topic": "grammar", "difficulty": 2,
+      "question": "Identify the passive voice: ",
+      "options": ["The cat chased the mouse", "The mouse was chased by the cat", "The cat is chasing", "Cats chase mice"],
+      "answer": "The mouse was chased by the cat"
+    },
+    {
+      "id": "e7", "topic": "literature", "difficulty": 3,
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "options": ["Charlotte Brontë", "Jane Austen", "Mary Shelley", "George Eliot"],
+      "answer": "Jane Austen"
+    },
+    {
+      "id": "e8", "topic": "vocabulary", "difficulty": 3,
+      "question": "What does 'soliloquy' mean in drama?",
+      "options": ["A duet", "Speaking alone on stage", "A type of sonnet", "Stage direction"],
+      "answer": "Speaking alone on stage"
+    },
+    {
+      "id": "e9", "topic": "grammar", "difficulty": 2,
+      "question": "The subjunctive mood expresses?",
+      "options": ["Facts", "Commands only", "Wishes/hypotheticals", "Questions"],
+      "answer": "Wishes/hypotheticals"
+    },
+    {
+      "id": "e10", "topic": "comprehension", "difficulty": 1,
+      "question": "The main idea of a paragraph is usually in the?",
+      "options": ["Last sentence", "Middle sentence", "Topic sentence", "Every sentence"],
+      "answer": "Topic sentence"
+    },
+    {
+      "id": "e11", "topic": "literature", "difficulty": 2,
+      "question": "A haiku has how many syllables total?",
+      "options": ["14", "17", "21", "10"],
+      "answer": "17"
+    },
+    {
+      "id": "e12", "topic": "grammar", "difficulty": 3,
+      "question": "Which sentence uses a dangling modifier?",
+      "options": [
+        "Running quickly, she caught the bus",
+        "Running quickly, the bus was caught",
+        "She ran quickly to catch the bus",
+        "The bus was caught by her running"
+      ],
+      "answer": "Running quickly, the bus was caught"
+    }
+  ]
+}

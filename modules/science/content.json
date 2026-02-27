@@ -1,0 +1,68 @@
+{
+  "subject": "science",
+  "levels": {
+    "1": {
+      "title": "Science Fundamentals",
+      "description": "Basic physics, chemistry, and biology concepts",
+      "chunks": [
+        {
+          "id": "sci_1_1",
+          "topic": "Forces and Motion",
+          "content": "Physics is the study of matter and energy. Forces cause objects to move or change motion.\n\nNewton's Three Laws of Motion:\n1. First Law (Inertia): An object stays at rest or in motion unless acted on by a force.\n   'Objects resist changes to their motion.'\n\n2. Second Law: Force = Mass × Acceleration (F = ma)\n   More mass → more force needed. More force → more acceleration.\n\n3. Third Law: For every action, there is an equal and opposite reaction.\n   A rocket pushes gas backward; gas pushes rocket forward.\n\nTypes of Forces:\n• Gravity: Pulls objects toward Earth (9.8 m/s²)\n• Friction: Opposes motion between surfaces\n• Normal Force: Perpendicular support from a surface\n• Tension: Force through a string or rope"
+        },
+        {
+          "id": "sci_1_2",
+          "topic": "Matter and Atoms",
+          "content": "Chemistry studies matter and how it changes.\n\nStates of Matter:\n• Solid: Fixed shape and volume, particles tightly packed\n• Liquid: Fixed volume, takes shape of container, particles loosely packed\n• Gas: No fixed shape or volume, particles spread far apart\n• Plasma: Ionized gas at extreme temperatures\n\nAtoms:\n• The smallest unit of an element\n• Made of: Protons (+), Neutrons (neutral), Electrons (-)\n• Atomic Number = number of protons\n• Mass Number = protons + neutrons\n\nElements and Compounds:\n• Element: Pure substance made of one type of atom (H, O, Fe)\n• Compound: Two or more elements chemically bonded (H₂O, CO₂)\n• Mixture: Substances mixed but not bonded (saltwater)"
+        },
+        {
+          "id": "sci_1_3",
+          "topic": "Cells — The Building Blocks of Life",
+          "content": "Biology studies living organisms. All life is made of cells.\n\nCell Theory:\n1. All living things are made of cells\n2. Cells are the basic unit of life\n3. All cells come from pre-existing cells\n\nPlant vs Animal Cells:\nAnimal Cell has: Nucleus, Mitochondria, Ribosomes, Cell membrane\nPlant Cell additionally has: Cell wall, Chloroplasts, Large vacuole\n\nKey Organelles:\n• Nucleus: Control center, contains DNA\n• Mitochondria: Produces energy (ATP) — 'powerhouse of the cell'\n• Ribosome: Makes proteins\n• Cell Membrane: Controls what enters/exits\n• Chloroplast (plants): Converts sunlight to food (photosynthesis)"
+        }
+      ]
+    },
+    "2": {
+      "title": "Intermediate Science",
+      "description": "Waves, chemical reactions, genetics and ecosystems",
+      "chunks": [
+        {
+          "id": "sci_2_1",
+          "topic": "Waves and Energy",
+          "content": "Waves transfer energy without transferring matter.\n\nWave Properties:\n• Wavelength (λ): Distance between two peaks\n• Frequency (f): Waves per second (Hz)\n• Amplitude: Height of wave (related to energy)\n• Wave Speed: v = f × λ\n\nTypes of Waves:\n• Transverse: Particles move perpendicular to wave direction (light, water)\n• Longitudinal: Particles move parallel to wave direction (sound)\n\nElectromagnetic Spectrum (high to low frequency):\nGamma → X-ray → UV → Visible Light → Infrared → Microwave → Radio\n\nSound:\n• Needs a medium (cannot travel in vacuum)\n• Speed in air: ~343 m/s\n• Pitch = frequency, Loudness = amplitude (decibels)"
+        },
+        {
+          "id": "sci_2_2",
+          "topic": "Chemical Reactions",
+          "content": "Chemical reactions break and form bonds, creating new substances.\n\nTypes of Reactions:\n• Synthesis: A + B → AB (combining)\n• Decomposition: AB → A + B (breaking apart)\n• Combustion: Fuel + O₂ → CO₂ + H₂O + Energy\n• Acid-Base: Acid + Base → Salt + Water\n\nBalancing Equations:\nH₂ + O₂ → H₂O becomes 2H₂ + O₂ → 2H₂O\n(Law of Conservation of Mass: atoms can't be created or destroyed)\n\npH Scale:\n• 0-6: Acidic (HCl, stomach acid)\n• 7: Neutral (pure water)\n• 8-14: Basic/Alkaline (baking soda, bleach)\n\nActivation Energy: Minimum energy needed to start a reaction. Catalysts lower this."
+        },
+        {
+          "id": "sci_2_3",
+          "topic": "Genetics and DNA",
+          "content": "Genetics studies heredity — how traits pass from parents to offspring.\n\nDNA Structure:\n• Double helix shape (Watson & Crick, 1953)\n• Made of nucleotides: Sugar + Phosphate + Nitrogenous Base\n• Bases: Adenine (A), Thymine (T), Guanine (G), Cytosine (C)\n• A pairs with T, G pairs with C\n\nFrom DNA to Protein:\nDNA → (Transcription) → mRNA → (Translation) → Protein\n\nMendelian Genetics:\n• Dominant allele (B) masks recessive (b)\n• Genotype: Genetic makeup (BB, Bb, bb)\n• Phenotype: Physical expression (Brown eyes, Blue eyes)\n• Punnett Square predicts offspring probability\n\nHumans: 46 chromosomes (23 pairs), 23 from each parent."
+        }
+      ]
+    },
+    "3": {
+      "title": "Advanced Science",
+      "description": "Quantum physics, organic chemistry, and molecular biology",
+      "chunks": [
+        {
+          "id": "sci_3_1",
+          "topic": "Quantum Mechanics",
+          "content": "Quantum mechanics describes physics at the atomic and subatomic scale.\n\nCore Principles:\n• Wave-Particle Duality: Light and matter behave as both waves and particles\n• Heisenberg Uncertainty Principle: Cannot simultaneously know exact position AND momentum of a particle\n• Quantization: Energy exists in discrete packets called quanta\n\nAtomic Orbitals:\n• Electrons occupy probability clouds, not fixed orbits\n• Quantum Numbers: n (shell), l (shape), ml (orientation), ms (spin)\n• Pauli Exclusion Principle: No two electrons can have the same four quantum numbers\n• Aufbau Principle: Electrons fill lowest energy orbitals first\n\nSchrodinger's Equation:\nDescribes how quantum states evolve over time. The solution gives a wavefunction (ψ) whose square gives the probability density of finding a particle."
+        },
+        {
+          "id": "sci_3_2",
+          "topic": "Thermodynamics",
+          "content": "Thermodynamics studies heat, energy, and their interconversion.\n\nLaws of Thermodynamics:\n0th Law: If A is in equilibrium with B, and B with C, then A is with C (temperature)\n1st Law: Energy cannot be created or destroyed; ΔU = Q - W\n2nd Law: Entropy (disorder) of the universe always increases\n3rd Law: Entropy approaches zero as temperature approaches absolute zero\n\nKey Concepts:\n• Enthalpy (H): Heat content at constant pressure\n• Entropy (S): Measure of disorder\n• Gibbs Free Energy: ΔG = ΔH - TΔS\n  • ΔG < 0: Spontaneous reaction\n  • ΔG > 0: Non-spontaneous\n  • ΔG = 0: Equilibrium\n\nCarnot Efficiency: η = 1 - (T_cold/T_hot) — theoretical maximum efficiency of a heat engine."
+        },
+        {
+          "id": "sci_3_3",
+          "topic": "Cellular Respiration and Metabolism",
+          "content": "Cellular respiration converts glucose to ATP energy.\n\nOverall Equation:\nC₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ATP\n\nThree Stages:\n1. Glycolysis (cytoplasm):\n   Glucose (6C) → 2 Pyruvate (3C)\n   Net gain: 2 ATP, 2 NADH\n\n2. Krebs Cycle / Citric Acid Cycle (mitochondrial matrix):\n   Pyruvate → Acetyl-CoA → CO₂ released\n   Produces: 2 ATP, 8 NADH, 2 FADH₂ per glucose\n\n3. Electron Transport Chain (inner mitochondrial membrane):\n   NADH and FADH₂ donate electrons\n   O₂ is final electron acceptor → H₂O formed\n   Produces: ~32-34 ATP via chemiosmosis\n\nTotal yield: ~36-38 ATP per glucose molecule."
+        }
+      ]
+    }
+  }
+}

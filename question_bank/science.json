@@ -1,0 +1,77 @@
+{
+  "subject": "science",
+  "questions": [
+    {
+      "id": "s1", "topic": "physics", "difficulty": 1,
+      "question": "What is the unit of force?",
+      "options": ["Joule", "Newton", "Pascal", "Watt"],
+      "answer": "Newton"
+    },
+    {
+      "id": "s2", "topic": "chemistry", "difficulty": 1,
+      "question": "What is the chemical formula for water?",
+      "options": ["HO", "H2O", "H2O2", "OH"],
+      "answer": "H2O"
+    },
+    {
+      "id": "s3", "topic": "biology", "difficulty": 1,
+      "question": "What is the powerhouse of the cell?",
+      "options": ["Nucleus", "Ribosome", "Mitochondria", "Golgi"],
+      "answer": "Mitochondria"
+    },
+    {
+      "id": "s4", "topic": "physics", "difficulty": 2,
+      "question": "F = ma represents Newton's which law?",
+      "options": ["First", "Second", "Third", "Fourth"],
+      "answer": "Second"
+    },
+    {
+      "id": "s5", "topic": "chemistry", "difficulty": 2,
+      "question": "Atomic number of Carbon is?",
+      "options": ["4", "6", "8", "12"],
+      "answer": "6"
+    },
+    {
+      "id": "s6", "topic": "biology", "difficulty": 2,
+      "question": "DNA stands for?",
+      "options": ["Deoxyribonucleic Acid", "Diribonucleic Acid", "Deoxyribose Acid", "None"],
+      "answer": "Deoxyribonucleic Acid"
+    },
+    {
+      "id": "s7", "topic": "physics", "difficulty": 3,
+      "question": "What is the escape velocity of Earth?",
+      "options": ["9.8 km/s", "11.2 km/s", "7.9 km/s", "3.0 km/s"],
+      "answer": "11.2 km/s"
+    },
+    {
+      "id": "s8", "topic": "chemistry", "difficulty": 3,
+      "question": "Which quantum number describes orbital shape?",
+      "options": ["Principal", "Azimuthal", "Magnetic", "Spin"],
+      "answer": "Azimuthal"
+    },
+    {
+      "id": "s9", "topic": "biology", "difficulty": 2,
+      "question": "How many chromosomes do humans have?",
+      "options": ["23", "44", "46", "48"],
+      "answer": "46"
+    },
+    {
+      "id": "s10", "topic": "physics", "difficulty": 1,
+      "question": "Speed of light is approximately?",
+      "options": ["3×10⁶ m/s", "3×10⁸ m/s", "3×10¹⁰ m/s", "3×10⁴ m/s"],
+      "answer": "3×10⁸ m/s"
+    },
+    {
+      "id": "s11", "topic": "chemistry", "difficulty": 3,
+      "question": "pH of a neutral solution at 25°C?",
+      "options": ["0", "7", "14", "1"],
+      "answer": "7"
+    },
+    {
+      "id": "s12", "topic": "biology", "difficulty": 3,
+      "question": "Which process converts glucose to pyruvate?",
+      "options": ["Krebs cycle", "Glycolysis", "Oxidation", "Fermentation"],
+      "answer": "Glycolysis"
+    }
+  ]
+}
