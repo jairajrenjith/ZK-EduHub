@@ -1,4 +1,4 @@
-# ZK-EduHub 🔐
+# ZK-EduHub
 ### Zero-Knowledge Adaptive Learning Platform
 **Tech Thrive 2.0 — National Level 24-Hour Hackathon**
 
